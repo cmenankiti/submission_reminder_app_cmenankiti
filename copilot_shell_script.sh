@@ -1,20 +1,10 @@
 #!/bin/bash
 
-#Add the previously created file as the source file
-source create_environment.sh
-
-#Making the directory of the user
-mkdir -p submission_reminder_$name
-the_dir=submission_reminder_$name
+#Variable as a shortcut for the file to run smoothly
+the_dir="submission_reminder_*/"
 
 read -p "Enter your Assignment: " meatpie
 echo "Updating Assignment..."
-
-cat <<EOF > "$the_dir/config/config.env"
-# This is the config file
-ASSIGNMENT="Shell Navigation"
-DAYS_REMAINING=2
-EOF
 
 #Source file for the words that should be replaced
 source $the_dir/config/config.env

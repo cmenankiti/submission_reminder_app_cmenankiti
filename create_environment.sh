@@ -28,9 +28,9 @@ Chiagoziem, Git, submitted
 Divine, Shell Navigation, not submitted
 Anissa, Shell Basics, submitted
 Lorris, Shell Navigation, not submitted
-Paradise, Git, submitted
+Paradise, Git, not submitted
 Tedla, Shell Basics, not submitted
-Success, Shell Basics, submitted
+Success, Shell Basics, not submitted
 Eric, Shell Navigation, submitted
 Peter, Git, not submitted
 EOF
@@ -98,7 +98,7 @@ if [ -d "\$base_dir/app" ]; then
   # Change into the app directory using the determined path
   if cd "\$base_dir/app" ; then
     if [ -f "reminder.sh" ]; then
-      bash reminder.sh
+      ./reminder.sh
       echo "E dey work"
     else
       echo "Problem Dey - reminder.sh no dey!"
@@ -114,3 +114,7 @@ else
   echo "Problem Dey - app folder no dey!"
 fi
 EOF
+
+echo "Environment has been created"
+
+tree $the_dir
