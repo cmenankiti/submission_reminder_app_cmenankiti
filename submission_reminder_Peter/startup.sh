@@ -11,7 +11,7 @@ if [ -d "$base_dir/app" ]; then
   # Change into the app directory using the determined path
   if cd "$base_dir/app" ; then
     if [ -f "reminder.sh" ]; then
-      bash reminder.sh
+      ./reminder.sh
       echo "E dey work"
     else
       echo "Problem Dey - reminder.sh no dey!"

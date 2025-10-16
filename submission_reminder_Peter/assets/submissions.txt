@@ -4,8 +4,8 @@ Chiagoziem, Git, submitted
 Divine, Shell Navigation, not submitted
 Anissa, Shell Basics, submitted
 Lorris, Shell Navigation, not submitted
-Paradise, Git, submitted
+Paradise, Git, not submitted
 Tedla, Shell Basics, not submitted
-Success, Shell Basics, submitted
+Success, Shell Basics, not submitted
 Eric, Shell Navigation, submitted
 Peter, Git, not submitted
